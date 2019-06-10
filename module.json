@@ -1,0 +1,10 @@
+{
+    "name": "xigncode-bypass",
+    "author": "Yuyuko (bypass by Caali)",
+    "description": "Prevents XIGNCODE3 from being started and installed on your system.",
+    "category": "client",
+    "options": {
+        "guiName": "XIGNCODE3 Bypass"
+    },
+    "servers": ["https://raw.githubusercontent.com/[yuyuko]/xigncode-bypass/master/"] 
+}
