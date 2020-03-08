@@ -20,7 +20,7 @@ module.exports = function XigncodeBypass(mod) {
 
     // Inject bypass DLL
     try {
-        execFileSync(path.join(path.dirname(require.resolve('tera-client-interface')), 'injector.exe'), [mod.clientInterface.info.pid, path.join(__dirname, 'xigncode-bypass.dll')]);
+        execFileSync(path.join(__dirname, 'injector.exe'), [mod.clientInterface.info.pid, path.join(__dirname, 'xigncode-bypass.dll')]);
     } catch(e) {
         mod.error(`Unable to install bypass (PID ${mod.clientInterface.info.pid})!`);
         switch (e.code) {
