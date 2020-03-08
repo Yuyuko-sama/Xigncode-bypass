@@ -1,6 +1,7 @@
 {
     "files": {
-        "index.js": "1d5008073ffad6b86a60f8c53b201f21a4bbe9fab48329a910bcaa67979555fd",
+        "index.js": "8e5d13130530899ea8be186dd358860892c83f288328ed6efdf4a5188333a9e6",
+		"injector.exe": "e6b94c56ed73706a071033274ebcf893ce4371a9f2f2aa7dad013d10245e5a3c",
         "xigncode-bypass.dll": "f5d8b296e7892537dbc7b36dddf715e8738e41e4e151d4c51872137f9854e1fe"
     }
 }
